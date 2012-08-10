@@ -1,0 +1,6 @@
+name = drag
+description  = Test of drag and drop 
+package = test
+core = 6.x
+dependencies[] = jquery_ui
+

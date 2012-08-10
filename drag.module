@@ -1,0 +1,9 @@
+<?php
+/**
+ * Implementation of hook_init()
+ *
+ */ 
+function drag_init() {
+  jquery_ui_add('ui.draggable');
+  drupal_add_js(drupal_get_path('module', 'drag') . '/drag.js');
+}
